@@ -16,6 +16,7 @@ Why This Course?
 - How to use common components and layout patterns for professional website design and development.
 - Advanced responsive design using media queries.
 - And Many More.
+-test
 
 Here you will find all the images I'm using to create this responsive ecommerce website. In future image folder can update.
 
