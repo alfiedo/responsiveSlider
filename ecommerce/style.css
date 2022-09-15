@@ -19,6 +19,7 @@ body{
 #navbar li{
     padding:0 20px;
     list-style: none;
+
    
 }
 #navbar li a{
@@ -26,11 +27,25 @@ body{
     font-size: 16px;
     font-weight: 600;
     color: #1a1a1a;
+    transition:0.3s ease;
+    position:relative;
         
     
 
-}
-#navbar li a:hover{
+}   
+#navbar li a:hover,
+#navbar li a.active{
     color:#088178;
-    transition:0.3s ease;
+    
+
+}
+#navbar li a.active::after ,
+#navbar li a:hover::after{
+    content:"";
+    width:50%;
+    height:2px;
+    background:#088178;
+    bottom:-4px;    
+    left:0px;
+    position:absolute;
 }
