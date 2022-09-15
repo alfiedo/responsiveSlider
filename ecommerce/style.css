@@ -19,4 +19,18 @@ body{
 #navbar li{
     padding:0 20px;
     list-style: none;
+   
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+        
+    
+
+}
+#navbar li a:hover{
+    color:#088178;
+    transition:0.3s ease;
 }
